@@ -28,10 +28,24 @@ namespace ConsoleApp1
             result = result - (C * 2.5);
             Wdouble.Write($") - {C} * 2.5 = {result}");
             Wdouble.Close();
-            FileStream R_Wfs = new FileStream("testoutput.txt", FileMode.Open);
-            StreamReader R_result = new StreamReader(R_Wfs);
-            Console.WriteLine(R_result);
             Rdouble.Close();
+            Console.Write("want show reault?(y/n) : ");
+            char check = char.Parse(Console.ReadLine());
+            if(check == 'y')//아마 한번 멈춰줘야 쓰기 파일을 제대로 불러내서 읽을수 있는 것 같다.(성공?)
+            {
+                FileStream Result;
+                Result = new FileStream("testoutput.txt", FileMode.Open);
+                StreamReader Re = new StreamReader(Result);
+                string R = Re.ReadLine();
+                Console.WriteLine(R);
+                Re.Close();
+                Result.Close();
+            }
+            else
+            {
+                Rfs.Close();
+                Wfs.Close();
+            }
         }
     }
 }
