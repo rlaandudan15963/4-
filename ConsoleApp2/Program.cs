@@ -63,6 +63,8 @@ namespace ConsoleApp2
                         A.Clear();
                         Console.WriteLine("Clear Complete");
                         break;
+                    case 4:
+                        Console.WriteLine("------------------------------------");
                     case 5:
                         Console.WriteLine("exit program");
                         break;
