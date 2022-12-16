@@ -23,6 +23,10 @@ namespace ConsoleApp2
                 num -= b;
                 Console.WriteLine($"{a} - {b} = {num}");
             }
+            public void Mut(int b)
+            {
+
+            }
             public void Clear()
             {
                 num = 0;
