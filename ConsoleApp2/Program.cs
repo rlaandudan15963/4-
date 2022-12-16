@@ -41,7 +41,7 @@ namespace ConsoleApp2
             while(check != 5)
             {
                 Console.WriteLine("------------------------------------");
-                Console.WriteLine("Add(1), Sub(2), clear(3), eixt(4)");
+                Console.WriteLine("Add(1), Sub(2), clear(3), eixt(5)");
                 Console.Write("=>");
                 check = int.Parse(Console.ReadLine());
                 switch (check)
