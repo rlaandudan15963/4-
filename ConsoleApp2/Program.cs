@@ -67,7 +67,7 @@ namespace ConsoleApp2
                         Console.WriteLine("------------------------------------");
                         Console.Write("Write Subed num => ");
                         num = int.Parse(Console.ReadLine());
-                        Console.WriteLine();
+                        Console.WriteLine("Clear Complete");
                     case 5:
                         Console.WriteLine("exit program");
                         break;
