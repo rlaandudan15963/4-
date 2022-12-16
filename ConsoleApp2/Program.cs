@@ -38,7 +38,7 @@ namespace ConsoleApp2
         {
             Add_Sub A = new Add_Sub();
             int check = 0, num;
-            while(check != 4)
+            while(check != 5)
             {
                 Console.WriteLine("------------------------------------");
                 Console.WriteLine("Add(1), Sub(2), clear(3), eixt(4)");
