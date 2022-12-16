@@ -65,6 +65,8 @@ namespace ConsoleApp2
                         break;
                     case 4:
                         Console.WriteLine("------------------------------------");
+                        Console.Write("Write Subed num => ");
+
                     case 5:
                         Console.WriteLine("exit program");
                         break;
