@@ -34,7 +34,7 @@ namespace ConsoleApp2
                 num = 0;
             }
         }
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             Add_Sub A = new Add_Sub();
             int check = 0, num;
