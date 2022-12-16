@@ -25,7 +25,9 @@ namespace ConsoleApp2
             }
             public void Mut(int b)
             {
-
+                int a = num;
+                num *= b;
+                Console.WriteLine($"")
             }
             public void Clear()
             {
