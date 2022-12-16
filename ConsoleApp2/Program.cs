@@ -17,7 +17,6 @@ namespace ConsoleApp2
                 num += b;
                 Console.WriteLine($"{a} + {b} = {num}");
             }
-
             public void Sub(int b)
             {
                 int a = num;
