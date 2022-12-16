@@ -11,7 +11,7 @@ namespace ConsoleApp1
             Rfs = new FileStream("testinput.txt", FileMode.Open);
             Wfs = new FileStream("testoutput.txt", FileMode.Create);
             StreamReader Rdouble = new StreamReader(Rfs);
-            StreamWriter Wdouble = new StreamWriter(Wfs);
+            StreamWriter Wdouble = new StreamWriter(Wfs); 
             string buff1 = Rdouble.ReadLine();
             String[] buff2 = buff1.Split(' ');
             double C = double.Parse(buff2[0]);
