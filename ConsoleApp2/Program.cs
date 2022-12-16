@@ -58,12 +58,12 @@ namespace ConsoleApp2
                         num = int.Parse(Console.ReadLine());
                         A.Sub(num);
                         break;
-                    case 3:
+                    case 4:
                         Console.WriteLine("------------------------------------");
                         A.Clear();
                         Console.WriteLine("Clear Complete");
                         break;
-                    case 4:
+                    case 3:
                         Console.WriteLine("------------------------------------");
                         Console.Write("Write Subed num => ");
                         num = int.Parse(Console.ReadLine());
