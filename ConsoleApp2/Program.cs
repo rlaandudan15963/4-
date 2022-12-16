@@ -27,7 +27,7 @@ namespace ConsoleApp2
             {
                 int a = num;
                 num *= b;
-                Console.WriteLine($"")
+                Console.WriteLine($"{a} * {b} = {num}");
             }
             public void Clear()
             {
